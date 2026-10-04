@@ -33,3 +33,5 @@ GROUP BY t.id_tiempo, v.id_vehiculo, u.id_ubicacion, ve.id_vendedor;
 -- Verificación rápida
 SELECT COUNT(*) AS filas_hechos, SUM(cantidad_vendidos) AS ventas
 FROM fact_ventas;
+
+

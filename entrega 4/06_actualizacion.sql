@@ -61,3 +61,8 @@ SELECT (SELECT COUNT(*) FROM dim_tiempo)    AS dim_tiempo,
        (SELECT COUNT(*) FROM dim_vendedor)  AS dim_vendedor,
        (SELECT COUNT(*) FROM fact_ventas)   AS fact_ventas,
        (SELECT SUM(cantidad_vendidos) FROM fact_ventas) AS ventas;
+       
+       
+       
+       
+       

@@ -24,6 +24,7 @@ CREATE TABLE stg_ventas (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 LOAD DATA LOCAL INFILE '/Users/salvadorsolana/Desktop/BDA/TP de GRUPO/BDA-proyecto-grupo/entrega 2/car_prices_reducido.csv'
+-- IMPORTANTE: cambiar esta ruta por la ubicación local del archivo car_prices_reducido.csv
 INTO TABLE stg_ventas
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
